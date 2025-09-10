@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <titlu>Pagina mea Web</titlu>
+    <meniu>
+        <element>Acasă</element>
+        <element>Despre</element>
+        <element>Contact</element>
+    </meniu>
+    <sectiuni>
+        <sectiune>
+            <titlu_sec>Introducere</titlu_sec>
+            <paragraf>Bine ați venit pe site-ul meu!</paragraf>
+        </sectiune>
+        <sectiune>
+            <titlu_sec>Despre mine</titlu_sec>
+            <paragraf>Sunt student și învăț dezvoltare web.</paragraf>
+        </sectiune>
+    </sectiuni>
+</site>
