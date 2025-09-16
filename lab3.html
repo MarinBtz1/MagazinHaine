@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<ul>
+    <li>Acasă</li>
+    <li>Despre</li>
+    <li>Servicii</li>
+    <li>Contact</li>
+</ul>
+
+<ol>
+    <li>Accesează pagina principală</li>
+    <li>Consultă informațiile disponibile</li>
+    <li>Completează formularul de contact</li>
+</ol>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Limbaj de marcare pentru structura paginilor web.</dd>
+    <dt>CSS</dt>
+    <dd>Limbaj pentru stilizarea paginilor web.</dd>
+    <dt>JavaScript</dt>
+    <dd>Limbaj de programare pentru interactivitate pe web.</dd>
+</dl>
+<hr>
+
+<img src="assets/Haine-pentru-barbati-Chic-Chic.jpg" alt="" width="200" height="100">
+<img src="assets/pexels-photo-417074.jpeg" alt="" width="400" height="200">
+
+<audio controls>
+    <source src="assets/Makaveli - Hail Mary (Lyric Video) [t_vjHqaZidU].mp3" type="audio/mpeg">
+    Browserul tău nu suportă redarea audio.
+</audio>
+
+<video width="400" height="250" controls>
+    <source src="media/video.mp4" type="video/mp4">
+    Browserul tău nu suportă redarea video.
+</video>
+<hr>
+
+<p>Mai multe detalii pe <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+
+<p><a href="#contact">Mergi la secțiunea de contact</a></p>
+
+<p><a href="mailto:exemplu@email.com">Trimite un email</a></p>
+
+<p><a href="tel:+37360000000">Sună acum</a></p>
+<hr>
+
+<table border="1">
+    <tr>
+        <th>Nume</th>
+        <th>Email</th>
+        <th>Telefon</th>
+    </tr>
+    <tr>
+        <td>Ion Popescu</td>
+        <td>ion@example.com</td>
+        <td>+37360000001</td>
+    </tr>
+    <tr>
+        <td>Maria Ionescu</td>
+        <td>maria@example.com</td>
+        <td>+37360000002</td>
+    </tr>
+</table>
+
+<table border="1">
+    <tr>
+        <th rowspan="2">Produs</th>
+        <th colspan="2">Preț</th>
+    </tr>
+    <tr>
+        <td>MDL</td>
+        <td>EUR</td>
+    </tr>
+    <tr>
+        <td>Laptop</td>
+        <td>12000</td>
+        <td>600</td>
+    </tr>
+    <tr>
+        <td>Telefon</td>
+        <td>8000</td>
+        <td>400</td>
+    </tr>
+</table>
+<hr>
+
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/watch?v=BT0c0hcC5cA" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+<iframe 
+    src="https://www.google.com/maps/place/Colosseum/@41.8851303,12.471218,7048m/data=!3m1!1e3!4m6!3m5!1s0x132f61b6532013ad:0x28f1c82e908503c4!8m2!3d41.8902102!4d12.4922309!16zL20vMGQ1cXg?entry=ttu&g_ep=EgoyMDI1MDkxNC4wIKXMDSoASAFQAw%3D%3D" 
+    width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy">
+</iframe>
+<hr>
+
+<h2 id="contact">Formular de contact</h2>
+<form action="submit.php" method="post">
+    <label for="nume">Nume:</label>
+    <input type="text" id="nume" name="nume" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <p>Alege o opțiune:</p>
+    <input type="radio" id="student" name="status" value="student">
+    <label for="student">Student</label><br>
+    <input type="radio" id="profesor" name="status" value="profesor">
+    <label for="profesor">Profesor</label><br><br>
+
+    <input type="checkbox" id="termeni" name="termeni" required>
+    <label for="termeni">Accept termenii și condițiile</label><br><br>
+
+    <label for="mesaj">Mesaj:</label><br>
+    <textarea id="mesaj" name="mesaj" rows="5" cols="40"></textarea><br><br>
+
+    <button type="submit">Trimite</button>
+</form>
+
+</body>
+</html>
